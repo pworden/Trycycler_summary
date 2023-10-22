@@ -36,7 +36,7 @@ output_path="path/to/output/folder"
 # Select the approriate config model
 configModel="dna_r9.4.1_450bps_sup.cfg"
 # Run guppy
-guppy_basecaller -i $input_path -s $output_path -c $configModel -x auto -r --trim_adapters --compress_fastq; done
+guppy_basecaller -i $input_path -s $output_path -c $configModel -x auto -r --trim_adapters --compress_fastq
 ```
 
 - For a single barcode - concatenate all fastq outputs
