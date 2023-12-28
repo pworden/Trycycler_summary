@@ -88,6 +88,7 @@ bash $pathToScript $sample_name $output_fasta $genome_size $threads $assembly_ou
 - *To turn ignore one or more assemblers used in the **high_cov_assembly_script.sh** open the script and comment out the unwanted assembler/s*
 
 **2. Reconcile assemblies (Manual checking and selection)
+This is the limiting step as each assembly must be reconciled manually. Meaning, find all the clusters for each barcode that can be reconciled and then run the script on each cluster that pass the guidelines summary (below).
 <https://github.com/bogemad/trycycler_scripts/blob/main/exnrec.sh>**
 
 Check multiple assembler outputs from "user_filename.trycycler.log.txt" output
