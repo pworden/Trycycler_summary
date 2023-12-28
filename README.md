@@ -115,7 +115,7 @@ contig_letters_to_exclude="ad"
 exnrec.sh ${path_to_cluster_directory} ${reads} ${threads} ${contig_letters_to_exclude}
 ```
 
-**3. Multiple sequence alignment
+### 3. Multiple sequence alignment
 <https://github.com/rrwick/Trycycler/wiki/Multiple-sequence-alignment>**
 
 - All the sequences that have passed reconcile (step 2) from each cluster must be aligned.
@@ -129,7 +129,7 @@ pathToCluster="path/to/sequence/cluster/to/be/aligned"
 trycycler msa --cluster_dir $pathToCluster
 ```
 
-**4. Trycycler partition
+### 4. Trycycler partition
 <https://github.com/rrwick/Trycycler/wiki/Partitioning-reads>**
 
 ```bash
@@ -140,7 +140,7 @@ clusterDirs="path/to/cluterDir1 path/to/cluterDir2 path/to/cluterDir3"
 trycycler partition --reads $fastqFile --cluster_dirs $clusterDirs
 ```
 
-**5. Generate a consensus
+### 5. Generate a consensus
 <https://github.com/rrwick/Trycycler/wiki/Generating-a-consensus>**
 
 - Run the consensus script separately for each good cluster
@@ -149,7 +149,7 @@ trycycler partition --reads $fastqFile --cluster_dirs $clusterDirs
 trycycler consensus --cluster_dir trycycler/cluster_001
 ```
 
-**6. Polishing after Trycycler
+### 6. Polishing after Trycycler
 <https://github.com/rrwick/Trycycler/wiki/Polishing-after-Trycycler>**
 
 - The Medaka assembly polisher is used
