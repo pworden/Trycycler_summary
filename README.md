@@ -149,7 +149,7 @@ trycycler partition --reads $fastqFile --cluster_dirs $clusterDirs
 trycycler consensus --cluster_dir trycycler/cluster_001
 ```
 
-### 6. Polishing after Trycycler
+### 6. Longread Polishing after Trycycler
 <https://github.com/rrwick/Trycycler/wiki/Polishing-after-Trycycler>**
 
 - The Medaka assembly polisher is used
